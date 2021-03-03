@@ -11,7 +11,6 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    implementation("org.apache.commons:commons-math3:3.6.1")
 
     testImplementation("org.testng:testng:7.3.0") {
         exclude("junit", "junit")
