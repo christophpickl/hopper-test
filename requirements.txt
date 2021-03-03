@@ -37,16 +37,17 @@ The string 'No solution.' if there is no way the hopper can reach the finish poi
 Otherwise, the text 'Optimal solution takes N hops.', where N is the number of hops needed to get from start to finish point.
 
 Sample Input
-2
-5 5
-4 0 4 4
-1
-1 4 2 3
-3 3
-0 0 2 2
+2 ... number race configs
+5 5 ... grid size (w/h)
+4 0 4 4 ... start/end position (x/y)
+1 ... number obstacles
+1 4 2 3 ... obstacle start/end (x/y)
+3 3 ... grid size 2nd config
+0 0 2 2 ... etc
 2
 1 1 0 2
 0 2 1 1
 
 Sample Output
-Optimal solution takes 7 hops. No solution.
+Optimal solution takes 7 hops.
+No solution.
